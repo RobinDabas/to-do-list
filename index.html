@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>To-do List</title>
   <link rel="stylesheet" href="mystyles.css">
 </head>
 <body>
+  <h1 class="title">To-do List</h1>
   <div class="container">
-    <h1 class="">To-do List</h1>
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="What do you need to do?">
+      <button type="button" id="addTaskBtn">Add task</button>
+    </div>
+    <ul class="taskList">
+      <li>Learn Javascript basics: variables, events, functions and conditional statements</li>
+    </ul>
   </div>
   <script src="myscripts.js"></script>
 </body>
