@@ -83,3 +83,26 @@ var result2 =(test2 == 0);
 console.log("Is", num1, "an even number?", result1);
 console.log("Is", num2, "an even number?", result2);
 
+let tenésMonedas = true;
+
+if (tenésMonedas) {
+  console.log("¡Podés comprar la espada!");
+}
+
+let quieroFollar = true;
+
+if (quieroFollar) {
+  console.log('Ella es una chica tailendesa delgadita y linda');
+} else {
+  console.log('Ella es una chica fea y gorda');
+} 
+
+
+
+let nivelCachondo = 10
+
+if (nivelCachondo < 5) {
+  console.log('Anda a follarla')
+} else {
+  console.log ('Quedate en casa')
+}
