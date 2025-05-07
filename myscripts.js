@@ -106,3 +106,43 @@ if (nivelCachondo < 5) {
 } else {
   console.log ('Quedate en casa')
 }
+
+let miTrabajo = 8
+
+if (miTrabajo <= 8) {
+  console.log('Vos podes seguir durmiendo')
+} else {
+  console.log('Vos tenes que despertar y trabajar')
+}
+
+
+
+
+var clasificado = 'tercero';
+
+if (clasificado == 'primero') {
+  console.log('¡Vos sos el ganador, qué chimba!');
+} else if (clasificado == 'segundo') {
+  console.log('Vos ganás plata, parcerito, ¡qué buena esa!');
+} else if (clasificado == 'tercero') {
+  console.log('Vos ganás bronce, ¡bien ahí, no te achiqués!');
+} else {
+  console.log('Vos sos un perdedor, pero tranqui, que vos podás mejorar.');
+}
+
+
+var mejorArtista = 'cuarta';
+
+switch(mejorArtista) {
+  case 'primero':
+    console.log('Nicky Jam')
+    break;
+  case 'segundo':
+    console.log('Daddy Yankee')
+    break;
+  case 'tercero':
+    console.log('Ozuna')
+    break;
+  default:
+    console.log('Bad Bunny')
+}
