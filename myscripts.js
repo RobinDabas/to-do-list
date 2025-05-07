@@ -146,3 +146,74 @@ switch(mejorArtista) {
   default:
     console.log('Bad Bunny')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var edad = '3000'; 
+
+if (edad >= 65) {
+  console.log('Vos obtenés tus ingresos de tu pensión')
+} else if (edad < 65 && edad >= 18) {
+  console.log('Cada mes vos recibís un salario')
+} else if (edad < 18) {
+  console.log('Vos recibís una asignación')
+} else {
+  console.log('El valor de la variable edad no es numérico')
+}
+
+var día = 'Viernes';
+
+switch(día) {
+  case 'Lunes':
+    console.log('Trabajá')
+    break;
+  case 'Martes':
+    console.log('Gimnasio')
+    break;
+  case 'Miércoles':
+    console.log('Codificá')
+    break;
+  case 'Jueves':
+    console.log('Solicitá')
+    break;
+  case 'Viernes':
+    console.log('Follá la chica')
+    break;
+  case 'Sábado':
+    console.log('Tiempo con amigos')
+    break;
+  case 'Domingo':
+    console.log('Pasá tiempo con la familia')
+    break;
+  default:
+    console.log('Hacé vídeos de YouTube')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
