@@ -207,11 +207,23 @@ switch(día) {
 
 
 
+//Vos tenes 5 novias ahora 
+
+for (let i = 1; i <= 5; i++) {
+  console.log('Voy a salir con mi novia ' + i);
+}
 
 
 
 
 
+
+
+//Cerra la puerta 5 veces
+
+for (let i = 1; i <= 5; ++i) {
+  console.log('Te dije cerra la puerta, ' + i)
+}
 
 
 
