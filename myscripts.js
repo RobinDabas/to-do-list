@@ -228,4 +228,49 @@ for (let i = 1; i <= 5; ++i) {
 
 
 
+//Cuenta atrás
 
+for (var i = 5; i >= 1; --i) {
+  console.log(i)
+}
+console.log('¡Empezá a codificar!')
+
+//Feliz cumpleaños, cuenta la edad
+
+for (let i = 1; i <= 25; ++i) {
+  console.log('¿Vos tenés ' + i + '?');
+}
+console.log('¡Feliz cumpleaños Habibi Robeen!')
+
+//¡Feliz Año Nuevo! (while loop)
+
+var cuentaAtrás = 5;
+
+while (cuentaAtrás > 0) {
+  console.log(cuentaAtrás);
+  cuentaAtrás = cuentaAtrás - 1;
+}
+console.log('¡Feliz Año Nuevo Habibi!')
+
+
+//Happy New Year 
+
+var countdown = 10;
+
+while (countdown > 0) {
+  console.log(countdown);
+  countdown = countdown - 1;
+}
+console.log('Happy New Year!')
+
+
+var year = 2018;
+
+while(year <= 2022) {
+    console.log(year);
+    year++;
+}
+
+for (var i = 100; i > 10; i = i - 10) {
+  for (var j = 10; j > 4; j = j - 10);
+}
