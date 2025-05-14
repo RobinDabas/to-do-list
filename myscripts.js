@@ -271,6 +271,25 @@ while(year <= 2022) {
     year++;
 }
 
-for (var i = 100; i > 10; i = i - 10) {
-  for (var j = 10; j > 4; j = j - 10);
+//Nested Loops
+ 
+for (let i = 0; i < 100; ++i) {
+  for (let j = 5; j < 100; ++i) {
+    console.log(i, j)
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+for (var i = 0; i < 100; ++i) {
+    console.log(`Vos vendiste ${i}`)
+}
+
